@@ -123,13 +123,11 @@ flowchart LR
 답변 생성과 XAI 분석을 동시에 구동하기 위해 GPU 메모리를 고려하여 4B 모델을 선택했습니다. (Qwen3-4B 실측 Peak VRAM 약 42 GB)
 
 ## 구현 결과
-<img width="836" height="518" alt="Rerank_result" src="https://github.com/user-attachments/assets/134715f9-5483-4b61-b112-5f33084a2edb" />
 
 
-| 기본 채팅 화면 | RAG 적용 답변 분석 | rerank 적용 답변 분석 |  Captum 적용 답변 분석 |
+| 기본 채팅 화면 | RAG 적용 답변 분석 | Rerank 적용 답변 분석 | Captum 적용 답변 분석 |
 |---|---|---|---|
-|<img width="1653" height="1032" alt="main" src="https://github.com/user-attachments/assets/355b6081-a7f8-4992-85b1-9d1e5d8f533c" />
-  | <img width="837" height="551" alt="RAG_result" src="https://github.com/user-attachments/assets/387f0ead-7a5f-4480-b645-8f02b0c13dc0" /> | <img width="836" height="518" alt="Rerank_result" src="https://github.com/user-attachments/assets/134715f9-5483-4b61-b112-5f33084a2edb" /> | <img width="833" height="579" alt="captum_result" src="https://github.com/user-attachments/assets/01c7fe81-69b4-4c21-ad37-7248e4b5cddb" />
+| <img width="1653" height="1032" alt="기본 채팅 화면" src="https://github.com/user-attachments/assets/355b6081-a7f8-4992-85b1-9d1e5d8f533c" /> | <img width="837" height="551" alt="RAG 적용 답변 분석" src="https://github.com/user-attachments/assets/387f0ead-7a5f-4480-b645-8f02b0c13dc0" /> | <img width="836" height="518" alt="Rerank 적용 답변 분석" src="https://github.com/user-attachments/assets/134715f9-5483-4b61-b112-5f33084a2edb" /> | <img width="833" height="579" alt="Captum 적용 답변 분석" src="https://github.com/user-attachments/assets/01c7fe81-69b4-4c21-ad37-7248e4b5cddb" /> |
 
 - 서비스 접속 시 질문 팁과 예시 질문을 제공
 - 응답 생성 중 로딩 화면을 표시하여 처리 상태 확인 가능
