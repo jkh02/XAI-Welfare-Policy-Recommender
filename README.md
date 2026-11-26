@@ -203,7 +203,3 @@ pip install -r requirements.txt
 - Lee, M. (2024). Kiwi: Developing a Korean morphological analyzer based on statistical language models and skip-bigram. *Korean Journal of Digital Humanities*.
 - Yang, A., et al. (2025). Qwen3 technical report. *arXiv*.
 - Hu, E. J., et al. (2022). LoRA: Low-rank adaptation of large language models. *ICLR*.
-
-## 라이선스
-
-MIT License
