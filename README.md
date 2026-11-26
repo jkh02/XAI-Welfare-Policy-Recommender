@@ -1,4 +1,4 @@
-# -XAI-LLM-
+# XAI-Welfare-Policy-Recommender
 설명 가능한(XAI) LLM 기반 상담 챗봇:   입력 요인별 기여도 분석 및 시각화 시스템
 ## 1. 배경 및 필요성
 
